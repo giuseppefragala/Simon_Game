@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp: Build a Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+
+ 
+<div class="game-body">
+  <div class="game-body-inside">
+ 
+<!-- Section color buttons -->    
+    <div class="row-button">
+      <div class="green color-button" id='green' ></div>
+      <div class="red color-button" id='red'></div>
+    </div>
+    <div class="row-button">
+      <div class="yellow color-button" id='yellow'></div>
+      <div class="blue color-button" id='blue'></div>
+    </div>
+  </div>
+<!-- Section color buttons -->    
+  
+<!-- Section central: command and display -->    
+  <div class="center">
+    <div class="logo"><b>Simon<a class="r">®</a></b></div>
+    <div class="led"></div>
+
+    <div class="container container-button">    
+      <div class="row row-btn">
+        <div class="col col-5 col-display">
+            <div class="display"></div>
+        </div>  
+        <div class="col col-3 col-button">
+          <button type="button" class="switch button-start" id="button-start" ></button>
+        </div>
+
+        <div class="col col-3 col-button">
+          <button type="button" class="switch button-strict" id="button-strict"></button>
+        </div>
+        
+      </div>
+ 
+
+    <div class="row row-label">
+      <div class="col col-5 label count">COUNT</div>
+      <div class="col col-3 label start">START</div>
+      <div class="col col-3 label strict">STRICT</div>    
+    </div>
+
+    <div class="row central-bottom">
+      <div class="col col-3"></div>
+      <div class="col col-2 label off-label">OFF</div>
+      <div class="col col-3 on-off">
+        <div class="on-switch"></div>
+      </div>
+      <div class="col col-2 label on-label">ON</div>
+      <div class="col col-2"></div>
+    </div>
+  </div>     
+<!-- Section central: command and display -->
+    
+  </div>
+</div>
+
+<div class="text-center autor"><a style="color:#fff" id="link-pers" href="https://it.linkedin.com/in/giuseppefragala" target="_blank">by Giuseppe Fragalà</a></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
